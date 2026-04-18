@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.DS_Store
+
+# Playwright output
+test-results/
+playwright-report/
+playwright/.auth/
+blob-report/
+.last-run.json
+
+# Env files — commit only .env.example
+config/.env
+config/.env.*
+!config/.env.example
+
+# IDE
+.vscode/
+.idea/
+*.log

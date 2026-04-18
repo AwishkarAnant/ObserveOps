@@ -1,0 +1,23 @@
+{
+  "skill_name": "excel-testcase-reader",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have a test case sheet at C:/Users/Anant Awishkar/Downloads/MOTADATA-8021_TestCases.xlsx. How many test cases are in it and can you dump them all to a markdown file?",
+      "expected_output": "A .md file with Total test cases: 35, a Source sheet line, and 35 numbered sections, each containing Step Action and Step Expected Result bullets.",
+      "files": ["C:/Users/Anant Awishkar/Downloads/MOTADATA-8021_TestCases.xlsx"]
+    },
+    {
+      "id": 2,
+      "prompt": "can you read this xlsx and tell me the count of testcases? path is C:/Users/Anant Awishkar/Downloads/MOTADATA-8021_TestCases.xlsx",
+      "expected_output": "Skill is invoked, script is run, response states the total count (35) and optionally the first few titles. Markdown file is generated at the default location.",
+      "files": ["C:/Users/Anant Awishkar/Downloads/MOTADATA-8021_TestCases.xlsx"]
+    },
+    {
+      "id": 3,
+      "prompt": "Convert my test case spreadsheet to markdown please. File is at C:/Users/Anant Awishkar/Downloads/MOTADATA-8021_TestCases.xlsx",
+      "expected_output": "Markdown file generated with the standard template. Each row becomes one section. Empty cells rendered as _(empty)_ if any.",
+      "files": ["C:/Users/Anant Awishkar/Downloads/MOTADATA-8021_TestCases.xlsx"]
+    }
+  ]
+}

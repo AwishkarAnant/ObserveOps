@@ -1,0 +1,41 @@
+[   10079ms] [LOG] %c   __  __    ____    _______              _____               _______            
+ |  \/  |  / __ \  |__   __|     /\     |  __ \      /\     |__   __|     /\    
+ | \  / | | |  | |    | |       /  \    | |  | |    /  \       | |       /  \   
+ | |\/| | | |  | |    | |      / /\ \   | |  | |   / /\ \      | |      / /\ \  
+ | |  | | | |__| |    | |     / ____ \  | |__| |  / ____ \     | |     / ____ \ 
+ |_|  |_|  \____/     |_|    /_/    \_\ |_____/  /_/    \_\    |_|    /_/    \_\
+                                                                                
+                                                                                 color: #099DD9; @ https://172.16.15.235/js/app-12245e1e.1fbfda98.js:0
+[   10080ms] [LOG] %c              _____    ____                
+     /\     |_   _|  / __ \               
+    /  \      | |   | |  | |  _ __    ___ 
+   / /\ \     | |   | |  | | | '_ \  / __|
+  / ____ \   _| |_  | |__| | | |_) | \__ \
+ /_/    \_\ |_____|  \____/  | .__/  |___/
+                             | |          
+                             |_|           color: #099DD9; @ https://172.16.15.235/js/app-12245e1e.1fbfda98.js:0
+[   10080ms] [LOG] %c AIOps version: 15e63  background:#099DD9 ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff @ https://172.16.15.235/js/app-12245e1e.1fbfda98.js:0
+[   10232ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://172.16.15.235/api/v1/settings/my-account:0
+[   10314ms] TypeError: Cannot read properties of null (reading 'refresh_token')
+    at p.refresh (https://172.16.15.235/js/app-5c62cea1.45cc1307.js:1:6674)
+    at https://172.16.15.235/js/app-5c62cea1.45cc1307.js:1:9872
+    at new Promise (<anonymous>)
+    at https://172.16.15.235/js/app-5c62cea1.45cc1307.js:1:9554
+[   10415ms] [INFO] Autofocus processing was blocked because a document already has a focused element. @ https://172.16.15.235/login:0
+[   10547ms] [ERROR] An SSL certificate error occurred when fetching the script. @ :0
+[   87153ms] [WARNING] License activation failed for @progress/kendo-vue-grid
+No license found.
+See https://www.telerik.com/kendo-vue-ui/my-license/?utm_medium=product&utm_source=kendovue&utm_campaign=kendo-ui-vue-purchase-license-keys-warning for more information.
+ @ https://172.16.15.235/js/chunk-vendors-0f63b783.3c495334.js:0
+[   87355ms] [WARNING] Highcharts warning: Consider including the "accessibility.js" module to make your chart more usable for people with disabilities. Set the "accessibility.enabled" option to false to remove this warning. See https://www.highcharts.com/docs/accessibility/accessibility-module. @ https://172.16.15.235/js/chunk-vendors-425d6d73.a0101e42.js:0
+[  243044ms] Error: Redirected when going from "/dashboard" to "/" via a navigation guard.
+    at Ut (https://172.16.15.235/js/chunk-vendors-1656f0b4.671cedb3.js:1:22391)
+    at Nt (https://172.16.15.235/js/chunk-vendors-1656f0b4.671cedb3.js:1:21840)
+    at https://172.16.15.235/js/chunk-vendors-1656f0b4.671cedb3.js:1:26481
+    at o (https://172.16.15.235/js/app-6f02571b.e500af3d.js:1:1867)
+    at https://172.16.15.235/js/app-6f02571b.e500af3d.js:1:1939
+    at d (https://172.16.15.235/js/chunk-vendors-1656f0b4.671cedb3.js:1:26299)
+    at r (https://172.16.15.235/js/chunk-vendors-1656f0b4.671cedb3.js:1:21716)
+    at r (https://172.16.15.235/js/chunk-vendors-1656f0b4.671cedb3.js:1:21745)
+    at r (https://172.16.15.235/js/chunk-vendors-1656f0b4.671cedb3.js:1:21745)
+    at zt (https://172.16.15.235/js/chunk-vendors-1656f0b4.671cedb3.js:1:21753)

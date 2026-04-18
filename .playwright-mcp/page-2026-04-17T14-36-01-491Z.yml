@@ -1,0 +1,404 @@
+- generic [ref=e1]:
+  - generic [ref=e151]:
+    - generic [ref=e153]:
+      - menu [ref=e154]:
+        - menuitem "AIOps" [ref=e155] [cursor=pointer]:
+          - generic [ref=e156]:
+            - img [ref=e157]
+            - generic: AIOps
+        - menuitem "Dashboards" [ref=e158] [cursor=pointer]:
+          - link "Dashboards" [ref=e159]:
+            - /url: /dashboard
+            - img [ref=e161]
+            - generic: Dashboards
+        - menuitem "Monitors" [ref=e163] [cursor=pointer]:
+          - link "Monitors" [ref=e164]:
+            - /url: /inventory/
+            - img [ref=e166]
+            - generic: Monitors
+        - menuitem "Alerts" [ref=e168] [cursor=pointer]:
+          - link "Alerts" [ref=e169]:
+            - /url: /alerts/
+            - img [ref=e171]
+            - generic: Alerts
+        - menuitem "SLO BETA" [ref=e173] [cursor=pointer]:
+          - link "SLO BETA" [ref=e174]:
+            - /url: /slo/
+            - img [ref=e176]
+            - generic:
+              - text: SLO
+              - generic [ref=e178]: BETA
+        - menuitem "Reports" [ref=e179] [cursor=pointer]:
+          - link "Reports" [ref=e180]:
+            - /url: /reports/
+            - img [ref=e182]
+            - generic: Reports
+        - menuitem "Topology" [ref=e184] [cursor=pointer]:
+          - link "Topology" [ref=e185]:
+            - /url: /topology/network
+            - img [ref=e187]
+            - generic: Topology
+        - menuitem "NCCM" [ref=e189] [cursor=pointer]:
+          - link "NCCM" [ref=e190]:
+            - /url: /nccm/
+            - img [ref=e192]
+            - generic: NCCM
+        - menuitem "NetRoute" [ref=e194] [cursor=pointer]:
+          - link "NetRoute" [ref=e195]:
+            - /url: /netroute/
+            - img [ref=e197]
+            - generic: NetRoute
+        - menuitem "Metric Explorer" [ref=e199] [cursor=pointer]:
+          - link "Metric Explorer" [ref=e200]:
+            - /url: /metric-explorer/
+            - img [ref=e202]
+            - generic: Metric Explorer
+        - menuitem "Log Explorer" [ref=e204] [cursor=pointer]:
+          - link "Log Explorer" [ref=e205]:
+            - /url: /log/
+            - img [ref=e207]
+            - generic: Log Explorer
+        - menuitem "APM Explorer" [ref=e209] [cursor=pointer]:
+          - link "APM Explorer" [ref=e210]:
+            - /url: /apm/
+            - img [ref=e212]
+            - generic: APM Explorer
+        - menuitem "RUM Explorer" [ref=e214] [cursor=pointer]:
+          - link "RUM Explorer" [ref=e215]:
+            - /url: /rum/
+            - img [ref=e217]
+            - generic: RUM Explorer
+        - menuitem "Flow Explorer" [ref=e219] [cursor=pointer]:
+          - link "Flow Explorer" [ref=e220]:
+            - /url: /flow/
+            - img [ref=e222]
+            - generic: Flow Explorer
+        - menuitem "Trap Explorer" [ref=e224] [cursor=pointer]:
+          - link "Trap Explorer" [ref=e225]:
+            - /url: /trap-explorer/
+            - img [ref=e227]
+            - generic: Trap Explorer
+        - menuitem "Audits" [ref=e229] [cursor=pointer]:
+          - link "Audits" [ref=e230]:
+            - /url: /audit/
+            - img [ref=e232]
+            - generic: Audits
+        - menuitem "Settings" [ref=e234] [cursor=pointer]:
+          - link "Settings" [ref=e235]:
+            - /url: /settings/
+            - img [ref=e237]
+            - generic: Settings
+      - img [ref=e240]
+    - generic [ref=e247]:
+      - generic [ref=e249]:
+        - link [ref=e251] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e252]
+        - generic [ref=e254]:
+          - button "search" [ref=e255] [cursor=pointer]:
+            - generic:
+              - img
+          - button "Health Monitoring" [ref=e256] [cursor=pointer]:
+            - generic:
+              - img
+          - generic [ref=e257]:
+            - button "Notification" [ref=e258] [cursor=pointer]:
+              - generic:
+                - img
+            - superscript [ref=e1104]: 99+
+          - generic [ref=e259]: "BUILD : 8.2.3"
+          - link "Avatar" [active] [ref=e261] [cursor=pointer]:
+            - /url: javascript:;
+            - img "Avatar" [ref=e263]
+      - generic [ref=e279]:
+        - generic [ref=e281]:
+          - img [ref=e284] [cursor=pointer]
+          - heading "Performance Summary" [level=3] [ref=e287]:
+            - img [ref=e289]
+            - text: Performance Summary
+            - img [ref=e292] [cursor=pointer]
+          - generic [ref=e294]:
+            - generic [ref=e296]:
+              - generic [ref=e297]:
+                - generic [ref=e299]: today
+                - generic [ref=e302]: Today
+                - img [ref=e305] [cursor=pointer]
+              - generic [ref=e307]:
+                - generic [ref=e308]: Fri, Apr 17, 2026 12:00:00 AM
+                - generic [ref=e309]: Fri, Apr 17, 2026 08:03:38 PM
+            - generic [ref=e310]:
+              - button "Full Screen" [ref=e311] [cursor=pointer]:
+                - generic:
+                  - img
+              - button "Export" [ref=e312] [cursor=pointer]:
+                - generic:
+                  - img
+              - button [ref=e313] [cursor=pointer]:
+                - generic:
+                  - img
+        - generic [ref=e314]:
+          - generic [ref=e316] [cursor=pointer]:
+            - slider [ref=e419]
+            - slider [ref=e420]
+            - generic:
+              - generic [ref=e421]: 12:37
+              - generic [ref=e422]: 20:38
+              - generic [ref=e423]: 04:40
+              - generic [ref=e424]: 12:41
+              - generic [ref=e425]: 20:43
+              - generic [ref=e426]: 04:44
+              - generic [ref=e427]: 12:45
+              - generic [ref=e428]: 20:47
+              - generic [ref=e429]: 04:48
+              - generic [ref=e430]: 12:50
+              - generic [ref=e431]: 20:03
+          - generic [ref=e435]:
+            - generic [ref=e439]:
+              - generic "Top Monitor by CPU Utilization" [ref=e442]:
+                - generic [ref=e443]: Top Monitor by CPU Utilization
+              - grid [ref=e450]:
+                - columnheader "Monitor" [ref=e454]:
+                  - generic [ref=e455] [cursor=pointer]: Monitor
+                - columnheader "CPU Percent" [ref=e457]:
+                  - generic [ref=e458] [cursor=pointer]: CPU Percent
+                - columnheader "Sparkline" [ref=e460]:
+                  - generic [ref=e462]: Sparkline
+                - table [ref=e464]:
+                  - row "Anant-Awishkar 18.59%" [ref=e1147]:
+                    - link "Anant-Awishkar" [ref=e1149] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351606
+                    - generic [ref=e1151]: 18.59%
+                    - img [ref=e1154]
+                  - row "anantvm5 13.48%" [ref=e1163]:
+                    - link "anantvm5" [ref=e1165] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351406
+                    - generic [ref=e1167]: 13.48%
+                    - img [ref=e1170]
+                  - row "WIN-DND56TVAJD5 13.45%" [ref=e1179]:
+                    - link "WIN-DND56TVAJD5" [ref=e1181] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351786
+                    - generic [ref=e1183]: 13.45%
+                    - img [ref=e1186]
+                  - row "apmagentanant 5.04%" [ref=e1195]:
+                    - link "apmagentanant" [ref=e1197] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351637
+                    - generic [ref=e1199]: 5.04%
+                    - img [ref=e1202]
+                  - row "APM-WIN-2019-STD 4.71%" [ref=e1211]:
+                    - link "APM-WIN-2019-STD" [ref=e1213] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351765
+                    - generic [ref=e1215]: 4.71%
+                    - img [ref=e1218]
+                  - row "motadata15.235 2.80%" [ref=e1227]:
+                    - link "motadata15.235" [ref=e1229] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351392
+                    - generic [ref=e1231]: 2.80%
+                    - img [ref=e1234]
+                  - row "centos8_stream 2.68%" [ref=e1243]:
+                    - link "centos8_stream" [ref=e1245] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351514
+                    - generic [ref=e1247]: 2.68%
+                    - img [ref=e1250]
+                  - row "fg_firewall.mindarray.com 1.59%" [ref=e1259]:
+                    - link "fg_firewall.mindarray.com" [ref=e1261] [cursor=pointer]:
+                      - /url: /inventory/Network/monitors/102418351571
+                    - generic [ref=e1263]: 1.59%
+                    - img [ref=e1266]
+                  - row "anantvm1 1.52%" [ref=e1275]:
+                    - link "anantvm1" [ref=e1277] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351485
+                    - generic [ref=e1279]: 1.52%
+                    - img [ref=e1282]
+                  - row "anantvm4 1.35%" [ref=e1291]:
+                    - link "anantvm4" [ref=e1293] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351471
+                    - generic [ref=e1295]: 1.35%
+                    - img [ref=e1298]
+            - generic [ref=e631]:
+              - generic "Top Monitor by Memory Percent" [ref=e634]:
+                - generic [ref=e635]: Top Monitor by Memory Percent
+              - grid [ref=e642]:
+                - columnheader "Monitor" [ref=e646]:
+                  - generic [ref=e647] [cursor=pointer]: Monitor
+                - columnheader "Memory Used Percent" [ref=e649]:
+                  - generic [ref=e650] [cursor=pointer]: Memory Used Percent
+                - columnheader "Sparkline" [ref=e652]:
+                  - generic [ref=e654]: Sparkline
+                - table [ref=e656]:
+                  - row "APM-WIN-2019-STD 90.35%" [ref=e1307]:
+                    - link "APM-WIN-2019-STD" [ref=e1309] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351765
+                    - generic [ref=e1311]: 90.35%
+                    - img [ref=e1314]
+                  - row "centos8_stream 85.34%" [ref=e1323]:
+                    - link "centos8_stream" [ref=e1325] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351514
+                    - generic [ref=e1327]: 85.34%
+                    - img [ref=e1330]
+                  - row "anantvm5 75.02%" [ref=e1339]:
+                    - link "anantvm5" [ref=e1341] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351406
+                    - generic [ref=e1343]: 75.02%
+                    - img [ref=e1346]
+                  - row "apmagentanant 70.12%" [ref=e1355]:
+                    - link "apmagentanant" [ref=e1357] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351637
+                    - generic [ref=e1359]: 70.12%
+                    - img [ref=e1362]
+                  - row "Anant-Awishkar 69.16%" [ref=e1371]:
+                    - link "Anant-Awishkar" [ref=e1373] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351606
+                    - generic [ref=e1375]: 69.16%
+                    - img [ref=e1378]
+                  - row "fg_firewall.mindarray.com 57.71%" [ref=e1387]:
+                    - link "fg_firewall.mindarray.com" [ref=e1389] [cursor=pointer]:
+                      - /url: /inventory/Network/monitors/102418351571
+                    - generic [ref=e1391]: 57.71%
+                    - img [ref=e1394]
+                  - row "WIN-DND56TVAJD5 48.12%" [ref=e1403]:
+                    - link "WIN-DND56TVAJD5" [ref=e1405] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351786
+                    - generic [ref=e1407]: 48.12%
+                    - img [ref=e1410]
+                  - row "motadata15.235 24.61%" [ref=e1419]:
+                    - link "motadata15.235" [ref=e1421] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351392
+                    - generic [ref=e1423]: 24.61%
+                    - img [ref=e1426]
+                  - row "anantvm1 21.13%" [ref=e1435]:
+                    - link "anantvm1" [ref=e1437] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351485
+                    - generic [ref=e1439]: 21.13%
+                    - img [ref=e1442]
+                  - row "anantvm2 20.69%" [ref=e1451]:
+                    - link "anantvm2" [ref=e1453] [cursor=pointer]:
+                      - /url: /inventory/Server/monitors/102418351684
+                    - generic [ref=e1455]: 20.69%
+                    - img [ref=e1458]
+            - generic [ref=e823]:
+              - generic "Memory Used Bytes by Group" [ref=e826]:
+                - generic [ref=e827]: Memory Used Bytes by Group
+              - generic [ref=e831]:
+                - generic [ref=e832]:
+                  - generic "7.23GB" [ref=e835]:
+                    - generic [ref=e837]:
+                      - text: "7.23"
+                      - heading "GB" [level=4] [ref=e838]
+                  - generic "Database > MySQL" [ref=e839]:
+                    - generic [ref=e840]: Database > MySQL
+                - generic [ref=e1467]:
+                  - generic "6.46GB" [ref=e1470]:
+                    - generic [ref=e1472]:
+                      - text: "6.46"
+                      - heading "GB" [level=4] [ref=e1473]
+                  - generic "Server > Windows" [ref=e1474]:
+                    - generic [ref=e1475]: Server > Windows
+                - generic [ref=e1476]:
+                  - generic "4.74GB" [ref=e1479]:
+                    - generic [ref=e1481]:
+                      - text: "4.74"
+                      - heading "GB" [level=4] [ref=e1482]
+                  - generic "Server" [ref=e1483]:
+                    - generic [ref=e1484]: Server
+                - generic [ref=e859]:
+                  - generic "4.13GB" [ref=e862]:
+                    - generic [ref=e864]:
+                      - text: "4.13"
+                      - heading "GB" [level=4] [ref=e865]
+                  - generic "Server > Linux" [ref=e866]:
+                    - generic [ref=e867]: Server > Linux
+            - generic [ref=e871]:
+              - generic "System CPU Percent by Group" [ref=e874]:
+                - generic [ref=e875]: System CPU Percent by Group
+              - generic [ref=e888]:
+                - generic [ref=e1485]:
+                  - generic "10.68%" [ref=e1488]:
+                    - generic [ref=e1490]:
+                      - text: "10.68"
+                      - heading "%" [level=4] [ref=e1491]
+                  - generic "Server > Windows" [ref=e1492]:
+                    - generic [ref=e1493]: Server > Windows
+                - generic [ref=e898]:
+                  - generic "5.76%" [ref=e901]:
+                    - generic [ref=e903]:
+                      - text: "5.76"
+                      - heading "%" [level=4] [ref=e904]
+                  - generic "Server" [ref=e905]:
+                    - generic [ref=e906]: Server
+                - generic [ref=e907]:
+                  - generic "4.02%" [ref=e910]:
+                    - generic [ref=e912]:
+                      - text: "4.02"
+                      - heading "%" [level=4] [ref=e913]
+                  - generic "Server > Linux" [ref=e914]:
+                    - generic [ref=e915]: Server > Linux
+                - generic [ref=e916]:
+                  - generic "3.87%" [ref=e919]:
+                    - generic [ref=e921]:
+                      - text: "3.87"
+                      - heading "%" [level=4] [ref=e922]
+                  - generic "Database > MySQL" [ref=e923]:
+                    - generic [ref=e924]: Database > MySQL
+                - generic [ref=e925]:
+                  - generic "1.59%" [ref=e928]:
+                    - generic [ref=e930]:
+                      - text: "1.59"
+                      - heading "%" [level=4] [ref=e931]
+                  - generic "Network" [ref=e932]:
+                    - generic [ref=e933]: Network
+                - generic [ref=e934]:
+                  - generic "1.59%" [ref=e937]:
+                    - generic [ref=e939]:
+                      - text: "1.59"
+                      - heading "%" [level=4] [ref=e940]
+                  - generic "Network > Firewall > Fortinet" [ref=e941]:
+                    - generic [ref=e942]: Network > Firewall > Fortinet
+                - generic [ref=e943]:
+                  - generic "1.59%" [ref=e946]:
+                    - generic [ref=e948]:
+                      - text: "1.59"
+                      - heading "%" [level=4] [ref=e949]
+                  - generic "Network > Firewall" [ref=e950]:
+                    - generic [ref=e951]: Network > Firewall
+            - generic "Top Monitor by Disk Used Percent" [ref=e958]:
+              - generic [ref=e959]: Top Monitor by Disk Used Percent
+            - generic "Top Monitor by Latency" [ref=e977]:
+              - generic [ref=e978]: Top Monitor by Latency
+            - generic "Top Monitor by Network Packets per Second" [ref=e996]:
+              - generic [ref=e997]: Top Monitor by Network Packets per Second
+            - generic "Top Monitor by Low Disk Space" [ref=e1015]:
+              - generic [ref=e1016]: Top Monitor by Low Disk Space
+            - generic "Top Monitor Interface by Dropped Packets" [ref=e1034]:
+              - generic [ref=e1035]: Top Monitor Interface by Dropped Packets
+            - generic "Top Monitor Interface by Error Packets" [ref=e1053]:
+              - generic [ref=e1054]: Top Monitor Interface by Error Packets
+            - generic "Top Monitor by Disk IOPS" [ref=e1072]:
+              - generic [ref=e1073]: Top Monitor by Disk IOPS
+            - generic "Top Monitor by Network Bits/s" [ref=e1091]:
+              - generic [ref=e1092]: Top Monitor by Network Bits/s
+  - tooltip "Avatar motadata admin admin My Profile Product Setup Guide Documentation Logout" [ref=e1111]:
+    - generic [ref=e1114]:
+      - generic [ref=e1116]:
+        - img "Avatar" [ref=e1119]
+        - generic [ref=e1120]:
+          - generic [ref=e1121]: motadata admin
+          - generic [ref=e1122]: admin
+      - list [ref=e1124]:
+        - listitem [ref=e1125]:
+          - link "My Profile" [ref=e1126] [cursor=pointer]:
+            - /url: /settings/my-account/my-profile
+            - img [ref=e1128]
+            - text: My Profile
+        - listitem [ref=e1130]:
+          - link "Product Setup Guide" [ref=e1131] [cursor=pointer]:
+            - /url: /setup/
+            - img [ref=e1133]
+            - text: Product Setup Guide
+        - listitem [ref=e1135]:
+          - link "Documentation" [ref=e1136] [cursor=pointer]:
+            - /url: https://docs.motadata.com/motadata-aiops-docs/
+            - img [ref=e1138]
+            - text: Documentation
+        - listitem [ref=e1140]
+        - listitem [ref=e1141]:
+          - generic [ref=e1142] [cursor=pointer]: Logout

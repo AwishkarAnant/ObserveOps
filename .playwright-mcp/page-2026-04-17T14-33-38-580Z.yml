@@ -1,0 +1,108 @@
+- generic [ref=e151]:
+  - generic [ref=e153]:
+    - menu [ref=e154]:
+      - menuitem "AIOps" [ref=e155] [cursor=pointer]:
+        - generic [ref=e156]:
+          - img [ref=e157]
+          - generic: AIOps
+      - menuitem "Dashboards" [ref=e158] [cursor=pointer]:
+        - link "Dashboards" [ref=e159]:
+          - /url: /dashboard
+          - img [ref=e161]
+          - generic: Dashboards
+      - menuitem "Monitors" [ref=e163] [cursor=pointer]:
+        - link "Monitors" [ref=e164]:
+          - /url: /inventory/
+          - img [ref=e166]
+          - generic: Monitors
+      - menuitem "Alerts" [ref=e168] [cursor=pointer]:
+        - link "Alerts" [ref=e169]:
+          - /url: /alerts/
+          - img [ref=e171]
+          - generic: Alerts
+      - menuitem "SLO BETA" [ref=e173] [cursor=pointer]:
+        - link "SLO BETA" [ref=e174]:
+          - /url: /slo/
+          - img [ref=e176]
+          - generic:
+            - text: SLO
+            - generic [ref=e178]: BETA
+      - menuitem "Reports" [ref=e179] [cursor=pointer]:
+        - link "Reports" [ref=e180]:
+          - /url: /reports/
+          - img [ref=e182]
+          - generic: Reports
+      - menuitem "Topology" [ref=e184] [cursor=pointer]:
+        - link "Topology" [ref=e185]:
+          - /url: /topology/network
+          - img [ref=e187]
+          - generic: Topology
+      - menuitem "NCCM" [ref=e189] [cursor=pointer]:
+        - link "NCCM" [ref=e190]:
+          - /url: /nccm/
+          - img [ref=e192]
+          - generic: NCCM
+      - menuitem "NetRoute" [ref=e194] [cursor=pointer]:
+        - link "NetRoute" [ref=e195]:
+          - /url: /netroute/
+          - img [ref=e197]
+          - generic: NetRoute
+      - menuitem "Metric Explorer" [ref=e199] [cursor=pointer]:
+        - link "Metric Explorer" [ref=e200]:
+          - /url: /metric-explorer/
+          - img [ref=e202]
+          - generic: Metric Explorer
+      - menuitem "Log Explorer" [ref=e204] [cursor=pointer]:
+        - link "Log Explorer" [ref=e205]:
+          - /url: /log/
+          - img [ref=e207]
+          - generic: Log Explorer
+      - menuitem "APM Explorer" [ref=e209] [cursor=pointer]:
+        - link "APM Explorer" [ref=e210]:
+          - /url: /apm/
+          - img [ref=e212]
+          - generic: APM Explorer
+      - menuitem "RUM Explorer" [ref=e214] [cursor=pointer]:
+        - link "RUM Explorer" [ref=e215]:
+          - /url: /rum/
+          - img [ref=e217]
+          - generic: RUM Explorer
+      - menuitem "Flow Explorer" [ref=e219] [cursor=pointer]:
+        - link "Flow Explorer" [ref=e220]:
+          - /url: /flow/
+          - img [ref=e222]
+          - generic: Flow Explorer
+      - menuitem "Trap Explorer" [ref=e224] [cursor=pointer]:
+        - link "Trap Explorer" [ref=e225]:
+          - /url: /trap-explorer/
+          - img [ref=e227]
+          - generic: Trap Explorer
+      - menuitem "Audits" [ref=e229] [cursor=pointer]:
+        - link "Audits" [ref=e230]:
+          - /url: /audit/
+          - img [ref=e232]
+          - generic: Audits
+      - menuitem "Settings" [ref=e234] [cursor=pointer]:
+        - link "Settings" [ref=e235]:
+          - /url: /settings/
+          - img [ref=e237]
+          - generic: Settings
+    - img [ref=e240]
+  - generic [ref=e249]:
+    - link [ref=e251] [cursor=pointer]:
+      - /url: /dashboard
+      - img [ref=e252]
+    - generic [ref=e254]:
+      - button "search" [ref=e255] [cursor=pointer]:
+        - generic:
+          - img
+      - button "Health Monitoring" [ref=e256] [cursor=pointer]:
+        - generic:
+          - img
+      - button "Notification" [ref=e258] [cursor=pointer]:
+        - generic:
+          - img
+      - generic [ref=e259]: "BUILD : 8.2.3"
+      - link "Avatar" [ref=e261] [cursor=pointer]:
+        - /url: javascript:;
+        - img "Avatar" [ref=e263]

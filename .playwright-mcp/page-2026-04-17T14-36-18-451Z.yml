@@ -1,0 +1,24 @@
+- generic [ref=e1499]:
+  - generic [ref=e1500]:
+    - generic [ref=e1501]:
+      - img [ref=e1503]
+      - generic [ref=e1505]:
+        - generic [ref=e1507]:
+          - generic [ref=e1509]:
+            - generic [ref=e1510]: Username
+            - text: "*"
+          - textbox "Username" [active] [ref=e1514]
+        - generic [ref=e1516]:
+          - generic [ref=e1518]:
+            - generic [ref=e1519]: Password
+            - text: "*"
+          - generic [ref=e1523]:
+            - textbox "Password" [ref=e1524]
+            - img [ref=e1527] [cursor=pointer]
+        - generic [ref=e1530] [cursor=pointer]: Forgot your Password?
+        - button "Login" [ref=e1531] [cursor=pointer]:
+          - generic: Login
+    - img [ref=e1534]
+  - img [ref=e1618]
+  - img [ref=e1622]
+  - img [ref=e1626]
